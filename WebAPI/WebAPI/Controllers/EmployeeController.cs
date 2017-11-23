@@ -13,7 +13,7 @@ using System.Web.Http.Cors;
 
 namespace WebAPI.Controllers
 {
-    //[EnableCors(origins: "http://localhost:50329", headers:"*", methods: "*")]
+    //[EnableCors(origins: "http://localhost:4200", headers:"*", methods: "*")]
     public class EmployeeController : ApiController
     {
         private DBModel db = new DBModel();
